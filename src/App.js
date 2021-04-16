@@ -1,7 +1,6 @@
 import './App.css';
 import Weather from "./Weather";
 
-
 export default function App() {
 
   return (
@@ -9,9 +8,9 @@ export default function App() {
 <div className="container">
 <Weather />
 <br />
-        <p>
+        <footer>
           This project was coded by <a href="https://www.alineclaudio.com" target="_blank"> Aline Claudio</a> and is open-sourced on <a href="https://github.com/alineolic/new-react-weather-app" target="_blank">GitHub</a> and hosted on <a href="https://app.netlify.com/" target="_blank">Netlify</a>.
-        </p>
+        </footer>
 </div>
     </div>
   );
