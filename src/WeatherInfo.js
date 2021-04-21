@@ -17,6 +17,7 @@ return (
            <div className="row mt-3">
              <div className="col-6">
                <div className="clearfix">
+                 <div className="float-left">
                  <WeatherIcon code={props.data.icon} /></div>
                <div className="float-left">
                <span className="temperature">{Math.round(props.data.temperature)}</span>
@@ -33,6 +34,7 @@ return (
                  Wind: {Math.round(props.data.wind)} km/H
                </li>
              </ul>
+           </div>
            </div>
            </div>);
            }
