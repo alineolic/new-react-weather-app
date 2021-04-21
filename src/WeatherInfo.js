@@ -1,4 +1,4 @@
-import React from "./react";
+import React from "react";
 import FormattedDate from "./FormattedDate";
 
 export default function WeatherInfo(props) {
@@ -26,7 +26,7 @@ return (
            <div className="col-6">
              <ul>
                <li>
-                 Humidity: {weatherData.humidity} %
+                 Humidity: {weatherData.humidity}%
                </li>
                <li>
                  Wind: {Math.round(weatherData.wind)} km/H

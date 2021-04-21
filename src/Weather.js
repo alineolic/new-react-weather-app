@@ -3,7 +3,6 @@ import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
 import "./Weather.css";
 
-
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 const [weatherData, setWeatherData] = useState({ready: false});
@@ -51,9 +50,9 @@ if (weatherData.ready) {
           </form>
           <WeatherInfo data={weatherData} />
             </div>
-    )
+    );
 } else {
-  searc();
+  search();
     return "Loading..."
 }
 }
