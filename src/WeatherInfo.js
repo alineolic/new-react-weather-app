@@ -17,7 +17,7 @@ return (
            <div className="row mt-3">
              <div className="col-6">
                <div className="clearfix">
-                 <WeatherIcon code={props.data.icon} />
+                 <WeatherIcon code={props.data.icon} /></div>
                <div className="float-left">
                <span className="temperature">{Math.round(props.data.temperature)}</span>
                <span className="unit">˚C</span>
